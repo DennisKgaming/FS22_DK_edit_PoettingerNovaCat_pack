@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="amazoneFT1001" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shaders/VehicleShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="amazoneFT1001_mat" materialId="4" diffuseColor="1 0.964706 0.0235294 1" customShaderId="2" customShaderVariation="colorMask">
+      <CustomParameter name="RDT" value="1 1 25 25"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="acmat_0" materialId="5" diffuseColor="0 0 0 1" customShaderId="2">
+      <CustomParameter name="RDT" value="1 0.8 50 50"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="leveler.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Leveler" nodeId="17">
+      <Shape shapeId="1" name="fillLevelMarker" translation="3.59132e-05 1.36751e-05 0" nodeId="9" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="nippel" translation="0 0 0.001" scale="0.15 0.15 0.15" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

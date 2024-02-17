@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>anthu</author>
+    <version>1.0.0.2</version>
+    <title>
+        <en>NOVACAT 301+X8 varia DK edit</en>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Pöttinger Novacat 301 and X8 with variable swath deposit]]>
+        </en>
+        <de>
+            <![CDATA[Pöttinger Novacat 301 und X8 mit variabler Schwadablage]]>
+        </de>
+        <fr>
+            <![CDATA[Pöttinger Novacat 301 et X8 avec andainage variable]]>
+        </fr>
+    </description>
+
+    <iconFilename>icons/icon.dds</iconFilename>
+	
+    <multiplayer supported="true" />
+	
+    <storeItems>
+        <storeItem xmlFilename="xml/poettingerNovaCat301.xml"/>
+        <storeItem xmlFilename="xml/poettingerNovaCatX8.xml"/>
+    </storeItems>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
